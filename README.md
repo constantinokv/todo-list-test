@@ -24,6 +24,7 @@
     DB_PASSWORD=cokuva
     DB_NAME=todo_list_db
     DB_CHARSET=utf8mb4
+     ```
 
 3. Instalar dependencias
     npm install
@@ -35,7 +36,9 @@
 
 1. Navegar al directorio frontend
 2. Crear archivo `.env` con las siguientes variables:
-    ```PORT=3001
+    ```env
+    PORT=3001
+     ```
 
 3. Instalar dependencias
     npm install
