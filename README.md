@@ -10,13 +10,13 @@
 ## Base de Datos
 1. Crear una base de datos llamada `todo_list_db`
 2. Correr el script de la BD
-    script_db.sql
+    /script_db.sql
 
 ### Backend
 
 1. Navegar al directorio backend
-2. Crear archivo .env con las siguientes variables:
-    PORT=3000
+2. Crear archivo `.env` con las siguientes variables:
+    ```PORT=3000
     JWT_SECRET=mK9x#P2$vL5nQ8zR4jH7@wY2
     DB_HOST=localhost
     DB_PORT=3306
@@ -84,3 +84,16 @@
   - POST /tasks - Crear tarea
   - PUT /tasks/:id - Actualizar tarea
   - DELETE /tasks/:id - Eliminar tarea
+
+
+
+
+    ```markdown
+   | Método | Endpoint             | Descripción                  |
+   | ------ | -------------------- | ---------------------------- |
+   | POST   | `/auth/register`    | Registro de usuario          |
+   | POST   | `/auth/login`       | Inicio de sesión             |
+   | GET    | `/tasks`            | Listar tareas                |
+   | POST   | `/tasks`            | Crear tarea                  |
+   | PUT    | `/tasks/:id`        | Actualizar tarea             |
+   | DELETE | `/tasks/:id`        | Eliminar tarea               |
