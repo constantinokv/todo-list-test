@@ -110,14 +110,13 @@
    ```
 
 
-## Dar alta un usuario de pruebas
+## Dar alta un usuario de pruebas con el API 
 
-POST
+POST:
+http://localhost:3000/api/auth/login
+
+JSON
 ```
-http://localhost:3000/api/auth/login```
-
-`JSON`
-```JSON
 {
   "email": "test@test.com",
   "password": "123456"
@@ -129,3 +128,6 @@ http://localhost:3000/api/auth/login```
 ## Acceso a la Aplicación
 - Frontend: http://localhost:3001
 - Backend: http://localhost:3000
+
+Nota:
+Tambien se puede dar alta usuarios en el frontend
