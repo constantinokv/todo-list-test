@@ -58,9 +58,6 @@
 
 
 
-## Acceso a la Aplicación
-- Frontend: http://localhost:3001
-- Backend: http://localhost:3000
 
 
 
@@ -110,3 +107,9 @@
    | POST   | `/tasks`            | Crear tarea                  |
    | PUT    | `/tasks/:id`        | Actualizar tarea             |
    | DELETE | `/tasks/:id`        | Eliminar tarea               |
+
+
+
+## Acceso a la Aplicación
+- Frontend: http://localhost:3001
+- Backend: http://localhost:3000
