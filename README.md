@@ -16,21 +16,31 @@
 
 1. Navegar al directorio backend
 2. Crear archivo `.env` con las siguientes variables:
-    ```PORT=3000
-    JWT_SECRET=mK9x#P2$vL5nQ8zR4jH7@wY2
+    ```env
+    PORT=3000
+    JWT_SECRET=your_jwt_secret_here
     DB_HOST=localhost
     DB_PORT=3306
-    DB_USER=constantino
-    DB_PASSWORD=cokuva
+    DB_USER=your_database_user
+    DB_PASSWORD=your_database_password
     DB_NAME=todo_list_db
-    DB_CHARSET=utf8mb4
-     ```
+    DB_CHARS
+    ```
 
 3. Instalar dependencias
     ```npm install```
 
 4. Iniciar el servidor
     ```npm start```
+
+### Notas sobre la configuración
+- Reemplazar `your_jwt_secret_here` con una cadena segura para JWT
+- Ajustar las credenciales de la base de datos según su configuración local
+- Para propósitos de prueba, puede usar:
+  ```env
+  DB_USER=root
+  DB_PASSWORD=root
+  ```
 
 ### Frontend
 
