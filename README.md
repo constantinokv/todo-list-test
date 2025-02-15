@@ -7,12 +7,12 @@
 
 ## Configuración del Proyecto
 
-## Base de Datos
+### 1.Base de Datos
 1. Crear una base de datos llamada `todo_list_db`
 2. Correr el script de la BD
    ``` /script_db.sql```
 
-### Backend
+### 2.Backend
 
 1. Navegar al directorio backend
 2. Crear archivo `.env` con las siguientes variables:
@@ -42,7 +42,7 @@
   DB_PASSWORD=root
   ```
 
-### Frontend
+### 3.Frontend
 
 1. Navegar al directorio frontend
 2. Crear archivo `.env` con las siguientes variables:
