@@ -34,8 +34,8 @@
 ### Frontend
 
 1. Navegar al directorio frontend
-2. Crear archivo .env con las siguientes variables:
-    PORT=3001
+2. Crear archivo `.env` con las siguientes variables:
+    ```PORT=3001
 
 3. Instalar dependencias
     npm install
