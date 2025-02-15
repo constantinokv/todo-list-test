@@ -30,7 +30,7 @@
     ```npm install```
 
 4. Iniciar el servidor
-    npm start
+    ```npm start```
 
 ### Frontend
 
