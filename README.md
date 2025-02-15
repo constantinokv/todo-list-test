@@ -107,6 +107,22 @@
    | POST   | `/tasks`            | Crear tarea                  |
    | PUT    | `/tasks/:id`        | Actualizar tarea             |
    | DELETE | `/tasks/:id`        | Eliminar tarea               |
+   ```
+
+
+## Dar alta un usuario de pruebas
+
+POST
+```
+http://localhost:3000/api/auth/login```
+
+`JSON`
+```JSON
+{
+  "email": "test@test.com",
+  "password": "123456"
+}
+```
 
 
 
