@@ -10,7 +10,7 @@
 ## Base de Datos
 1. Crear una base de datos llamada `todo_list_db`
 2. Correr el script de la BD
-    /script_db.sql
+   ``` /script_db.sql```
 
 ### Backend
 
@@ -27,7 +27,7 @@
      ```
 
 3. Instalar dependencias
-    npm install
+    ```npm install```
 
 4. Iniciar el servidor
     npm start
@@ -41,10 +41,10 @@
      ```
 
 3. Instalar dependencias
-    npm install
+   ``` npm install```
 
 4. Iniciar la applicacion
-    npm start
+    ```npm start```
 
 
 
